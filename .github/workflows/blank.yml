@@ -8,12 +8,12 @@ env:
   # Cloud Manager's Git repository
   MAIN_REPOSITORY: https://x-token-auth:IlFkVA7Bis5fSTGJdr7c@bitbucket.org/chavhak1/main.git
   # The branch in Cloud Manager's Git repository to push to
-  MAIN_BRANCH : main
+  MAIN_BRANCH : develop
 
 # Only run on a push to this branch
 on:
   push:
-     branches: [ main ]
+     branches: [ develop ]
 
 jobs:
   build:
